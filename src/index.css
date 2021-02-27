@@ -1,0 +1,45 @@
+/*
+69. GifExpertApp - Component
+*/
+*{
+    font-family:Helvetica, Arial,  sans-serif;
+}
+
+body{
+    padding: 60px;
+    font-size: 1em;
+}
+
+input{
+    color: grey;
+    font-size: 1.2rem;
+    width: 100%;
+    
+}
+
+/*
+    vídeo 76. className -  Clases de css - veremos como importar esta clase al div con className
+*/
+
+.card-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    align-content: center;
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.card p{
+    padding: 15px;
+    text-align: center;
+}
+
+.card img{
+    max-height: 170px;
+}
